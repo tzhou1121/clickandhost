@@ -45,11 +45,6 @@ Only your desire to find something where nothing promised it.`;
       if (!gameOver) update();
     }, 700);
 
-    setTimeout(() => {
-      gameOver = true;
-      overlay.style.display = 'flex';
-    }, 60000);
-
     canvas.addEventListener('touchstart', handleTouch);
   };
 
